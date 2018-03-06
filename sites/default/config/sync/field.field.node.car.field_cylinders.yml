@@ -1,0 +1,25 @@
+uuid: 0f8afdc0-3afa-42bf-b7fb-cae3a5573da6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cylinders
+    - node.type.car
+_core:
+  default_config_hash: WYeagEvudeYU4yWFmd4QcctL3GmrlNxTUK0X8CiVx-k
+id: node.car.field_cylinders
+field_name: field_cylinders
+entity_type: node
+bundle: car
+label: Cylinders
+description: 'Number of engine cylinders.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

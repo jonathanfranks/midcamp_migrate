@@ -1,0 +1,32 @@
+uuid: b9200f74-d54e-42f2-a339-3130fcd80392
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: jw6pnS3U8yBtlMO8jyNaNlpOLeokCPQYQ1pm_68ytHA
+id: node.field_country_of_origin
+field_name: field_country_of_origin
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: US
+      label: 'United States'
+    -
+      value: Europe
+      label: 'European Country'
+    -
+      value: Japan
+      label: Japan
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

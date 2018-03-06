@@ -1,0 +1,8 @@
+name: MidCamp Car content type
+type: module
+description: Content type config for Car
+core: 8.x
+package: MidCamp
+dependencies:
+  - views
+  - node

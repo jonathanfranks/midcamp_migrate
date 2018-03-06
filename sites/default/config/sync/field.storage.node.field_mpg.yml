@@ -1,0 +1,22 @@
+uuid: f0043cd4-4eef-4085-a47c-bdfa0d3655ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: PPQyAZOvKe4J1EYjNLlwFqmHkTSwf2ifQiahw7l8CpA
+id: node.field_mpg
+field_name: field_mpg
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

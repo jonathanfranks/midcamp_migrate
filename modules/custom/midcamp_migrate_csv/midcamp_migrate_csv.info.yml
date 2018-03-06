@@ -1,0 +1,12 @@
+name: MidCamp Migrate from CSV
+type: module
+description: How to migrate from CSV
+core: 8.x
+package: MidCamp
+dependencies:
+  - migrate
+  - migrate_source_csv
+  - migrate_source_directory
+  - migrate_plus
+  - migrate_tools
+  - midcamp_car

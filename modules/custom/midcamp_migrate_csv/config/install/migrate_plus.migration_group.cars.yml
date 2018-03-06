@@ -1,0 +1,8 @@
+id: cars
+label: Cars CSV
+description: Data file with cars
+source_type: Drupal 8
+dependencies:
+  enforced:
+    module:
+      - midcamp_migrate_csv

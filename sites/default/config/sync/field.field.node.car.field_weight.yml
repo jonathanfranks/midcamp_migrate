@@ -1,0 +1,25 @@
+uuid: 629f6b8c-19b5-497f-bf88-311dbef3bee2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.car
+_core:
+  default_config_hash: yA3mKHb0k0l1ysebJhA568TSRjWxLSlJg-PG93N6E6M
+id: node.car.field_weight
+field_name: field_weight
+entity_type: node
+bundle: car
+label: Weight
+description: 'How much it weighs.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

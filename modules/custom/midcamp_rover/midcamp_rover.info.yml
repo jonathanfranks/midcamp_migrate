@@ -1,0 +1,8 @@
+name: MidCamp Rover photo content type
+type: module
+description: Content type config for Rover photo
+core: 8.x
+package: MidCamp
+dependencies:
+  - views
+  - node

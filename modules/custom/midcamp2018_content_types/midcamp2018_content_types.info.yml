@@ -1,0 +1,5 @@
+name: 'midcamp2018_content_types'
+type: module
+description: 'Midcamp 2018 Content Type Config'
+core: 8.x
+package: 'Midcamp'

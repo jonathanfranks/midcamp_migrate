@@ -1,0 +1,24 @@
+uuid: 431a4592-a984-42ef-ac8c-2260f540fb72
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.car
+_core:
+  default_config_hash: '-Ei1X88AD392QVK_YM4rAatfsAddb3u-c7pOb4W_CuU'
+id: node.car.promote
+field_name: promote
+entity_type: node
+bundle: car
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

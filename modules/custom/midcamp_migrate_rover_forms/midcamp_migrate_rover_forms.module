@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains midcamp_migrate_rover_forms.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function midcamp_migrate_rover_forms_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the midcamp_migrate_rover_forms module.
+    case 'help.page.midcamp_migrate_rover_forms':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Forms to control custom migrations of NASA Mars Rover pictures') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "drupal/migrate_drupal_d8",
+  "type": "drupal-module",
+  "description": "Drupal 8 to Drupal 8 migration",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/migrate_drupal_d8",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/migrate_drupal_d8",
+    "source": "http://cgit.drupalcode.org/migrate_drupal_d8"
+  },
+  "require": {},
+  "require-dev": {
+    "drupal/coder": "^8.2"
+  }
+}

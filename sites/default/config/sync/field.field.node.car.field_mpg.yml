@@ -1,0 +1,25 @@
+uuid: 2766ac09-e19a-47d9-a0b5-7f3211398579
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mpg
+    - node.type.car
+_core:
+  default_config_hash: dYxLvvx5FuQM7Ou_yxh2pydvL80PFCIZm387ZhYmvig
+id: node.car.field_mpg
+field_name: field_mpg
+entity_type: node
+bundle: car
+label: MPG
+description: 'Miles per gallon'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,22 @@
+uuid: 41b43ed4-c73f-4ccf-b518-7157399d977e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wcqRWLHB2ZkSY-DMhgSUx2dJgvF6uoQyrd-ar9lvz0M
+id: node.field_horsepower
+field_name: field_horsepower
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

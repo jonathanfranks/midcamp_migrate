@@ -1,0 +1,8 @@
+name: 'midcamp_migrate_rover_forms'
+type: module
+description: 'Forms to control custom migrations of NASA Mars Rover pictures'
+core: 8.x
+package: 'Midcamp'
+dependencies:
+  - midcamp_migrate_mars_rover
+  - midcamp_rover

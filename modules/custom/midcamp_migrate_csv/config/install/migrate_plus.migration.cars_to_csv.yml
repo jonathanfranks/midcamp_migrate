@@ -1,0 +1,47 @@
+id: cars_to_csv
+langcode: en
+status: true
+migration_group: cars
+migration_tags:
+  - 'Drupal 8'
+label: 'Cars Import'
+source:
+  plugin: csv
+  keys:
+    - Car
+    - Model
+  path: ./modules/custom/midcamp_migrate_csv/data/cars.csv
+  header_row_count: 1
+  delimiter: ;
+process:
+  #Car;MPG;Cylinders;Displacement;Horsepower;Weight;Acceleration;Model;Origin
+  title: Car
+  skip:
+    -
+      plugin: static_map
+      source: Car
+      bypass: true
+      map:
+        STRING: 0
+    -
+      plugin: skip_on_empty
+      method: row
+  uid:
+    plugin: default_value
+    default_value: 1
+  field_acceleration: Acceleration
+  field_country_of_origin: Origin
+  field_cylinders: Cylinders
+  field_horsepower: Horsepower
+  field_model_year: Model
+  field_mpg: MPG
+  field_weight: Weight
+destination:
+  plugin: 'csv'
+  path: ./export.csv
+dependencies:
+  enforced:
+    module:
+      - midcamp_migrate_csv
+migration_dependencies:
+  required: { }

@@ -1,0 +1,25 @@
+uuid: 7e40a431-bb5d-4a92-8085-58a1f4dd4867
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_model_year
+    - node.type.car
+_core:
+  default_config_hash: doXlQ_us-4X2pSE-nBunGoTl4chNQz7tYgfosfIinJQ
+id: node.car.field_model_year
+field_name: field_model_year
+entity_type: node
+bundle: car
+label: 'Model year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

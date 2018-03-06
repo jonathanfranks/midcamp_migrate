@@ -1,0 +1,15 @@
+uuid: 124b72cc-4e4f-4bef-b121-78871ecda627
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - midcamp_migrate_pdf
+_core:
+  default_config_hash: QtTYvIs1zMKwWGa59kj02vEyZYKIHee9Fylx1p7bF_g
+id: pdf
+label: 'PDF migrations'
+description: 'PDF migrations'
+source_type: 'Drupal 8'
+module: null
+shared_configuration: null

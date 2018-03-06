@@ -1,0 +1,15 @@
+uuid: e4c754cd-01ae-48f9-9c77-58ad98b8e7b0
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - midcamp_migrate_mars_rover
+_core:
+  default_config_hash: t4QPp1W0V_-vlBKPFTj0qiDraTfeLRopNZuJdDjxDgI
+id: nasa
+label: 'NASA web services'
+description: 'NASA web services'
+source_type: 'Drupal 8'
+module: null
+shared_configuration: null

@@ -1,0 +1,20 @@
+uuid: 931e2b2a-ac13-4bde-8fd9-9104354fd609
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: mwsOog8bRMCWpDoh1axpF_FxmppqTfW5MCLOm6UC7PY
+name: Car
+type: car
+description: 'A car and its associated data.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,25 @@
+uuid: 2b5dae91-4cc3-4aa4-b02b-a9eed472e833
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horsepower
+    - node.type.car
+_core:
+  default_config_hash: 6x8pr9uOfiNjtb9SKtquLcmwYxig02rhYkFxAdrpCjI
+id: node.car.field_horsepower
+field_name: field_horsepower
+entity_type: node
+bundle: car
+label: Horsepower
+description: 'How much power the engine produces.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

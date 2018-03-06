@@ -1,0 +1,44 @@
+uuid: cb7d9ea4-beed-495e-bf4e-d50e9b8bd101
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.car.body
+    - field.field.node.car.field_acceleration
+    - field.field.node.car.field_country_of_origin
+    - field.field.node.car.field_cylinders
+    - field.field.node.car.field_horsepower
+    - field.field.node.car.field_model_year
+    - field.field.node.car.field_mpg
+    - field.field.node.car.field_weight
+    - node.type.car
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: OF3At41xFoFI7Kh7t2_uY1OziPE5RSqwvOeKcHOUIj0
+id: node.car.teaser
+targetEntityType: node
+bundle: car
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_acceleration: true
+  field_country_of_origin: true
+  field_cylinders: true
+  field_horsepower: true
+  field_model_year: true
+  field_mpg: true
+  field_weight: true

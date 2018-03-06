@@ -1,0 +1,25 @@
+uuid: a2cc390a-cbbc-42e4-af5e-a7e4445ac9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acceleration
+    - node.type.car
+_core:
+  default_config_hash: U9mBr3em0JLK2aEs_Qfd_6r_mEqGJNK2PUEXGcJewkE
+id: node.car.field_acceleration
+field_name: field_acceleration
+entity_type: node
+bundle: car
+label: Acceleration
+description: 'Acceleration from 0-60mph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

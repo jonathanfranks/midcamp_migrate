@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies: {  }
+id: pdf
+migration_tags: directory
+migration_group: pdf
+label: 'PDF Contents'
+source:
+  plugin: directory
+  track_changes: true
+  urls:
+    - ./modules/custom/midcamp_migrate_pdf/data/
+  file_extensions:
+    - pdf
+  recurse_level: -1
+process:
+  title: filename
+  body/value:
+    plugin: parse_pdf
+    source: url
+destination:
+  plugin: 'entity:node'
+  default_bundle: document
+dependencies:
+  enforced:
+    module:
+      - midcamp_migrate_pdf
+migration_dependencies:
+  required: {  }
+  optional: {  }

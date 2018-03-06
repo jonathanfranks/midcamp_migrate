@@ -1,0 +1,10 @@
+name: MidCamp Migrate from NASA Mars Rover web service
+type: module
+description: How to migrate from JSON with files
+core: 8.x
+package: MidCamp
+dependencies:
+  - migrate
+  - migrate_plus
+  - migrate_tools
+  - midcamp_rover

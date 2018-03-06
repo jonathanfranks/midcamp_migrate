@@ -1,0 +1,23 @@
+uuid: 985bae3d-7733-48e9-8e4c-76052209b931
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country_of_origin
+    - node.type.car
+  module:
+    - options
+_core:
+  default_config_hash: PqpMLDWOFd8OJBtuJZ6Vi9v8oRTxWk68FOBw8sR9PDg
+id: node.car.field_country_of_origin
+field_name: field_country_of_origin
+entity_type: node
+bundle: car
+label: 'Country of origin'
+description: 'Simplified country where it is manufactured.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
